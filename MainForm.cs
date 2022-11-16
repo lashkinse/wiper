@@ -137,7 +137,9 @@ namespace Wiper
             var bw = new BackgroundWorker();
             bw.DoWork += delegate
             {
+                buttons_InvokeSetEnabled(false);
                 FindTemporaryFiles();
+                buttons_InvokeSetEnabled(true);
             };
             bw.RunWorkerAsync();
         }
@@ -150,8 +152,10 @@ namespace Wiper
             var bw = new BackgroundWorker();
             bw.DoWork += delegate
             {
+                buttons_InvokeSetEnabled(false);
                 ArchiveTemporaryFiles();
                 DeleteTemporaryFiles();
+                buttons_InvokeSetEnabled(true);
             };
             bw.RunWorkerAsync();
         }
@@ -168,6 +172,15 @@ namespace Wiper
             Invoke(new MethodInvoker(delegate
             {
                 textBox_AppendText(text);
+            }));
+        }
+
+        void buttons_InvokeSetEnabled(bool enabled)
+        {
+            Invoke(new MethodInvoker(delegate
+            {
+                findFilesButton.Enabled = enabled;
+                wipeDataButton.Enabled = enabled;
             }));
         }
     }

@@ -44,7 +44,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(449, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(649, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -88,7 +88,7 @@
             this.textBox.Name = "textBox";
             this.textBox.ReadOnly = true;
             this.textBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox.Size = new System.Drawing.Size(427, 272);
+            this.textBox.Size = new System.Drawing.Size(625, 272);
             this.textBox.TabIndex = 1;
             // 
             // findFilesButton
@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 341);
+            this.ClientSize = new System.Drawing.Size(649, 341);
             this.Controls.Add(this.findFilesButton);
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.wipeDataButton);
@@ -114,8 +114,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(465, 380);
-            this.MinimumSize = new System.Drawing.Size(465, 380);
+            this.MaximumSize = new System.Drawing.Size(665, 380);
+            this.MinimumSize = new System.Drawing.Size(665, 380);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wiper";

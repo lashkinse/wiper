@@ -22,7 +22,6 @@ namespace Wiper
             }
             catch (Exception)
             {
-                Console.WriteLine("Error while searching files!");
                 //throw;
             }
             return null;
