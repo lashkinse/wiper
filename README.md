@@ -1,5 +1,5 @@
 # Description
-An application made for ARK: Survival Evolved servers for wipes.
+An application made for ARK: Survival Evolved for easy server wipes.
 
 # Configuration
 All configuration is done inside a config file on disk via JSON.
