@@ -1,0 +1,33 @@
+﻿{
+  "temporary_files": [
+    "*.log",
+    "*.db",
+    "*.db-shm",
+    "*.db-wal",
+    "*.ark",
+    "*.arktribe",
+    "*.arktributetribe",
+    "*.arkprofile",
+    "*.profilebak",
+    "*.bak",
+    "*.pnt",
+    "connection_log_*.txt",
+    "content_log.txt",
+    "service_log.txt"
+  ],
+
+  "clusters": [
+    {
+      "name": "cluster0",
+      "root": "C:\\asmdata\\cluster0"
+    }
+  ],
+
+  "servers": [
+    {
+      "name": "server1",
+      "root": "C:\\asmdata\\Servers\\Server1"
+    }
+
+  ]
+}
